@@ -9,26 +9,32 @@ const HomeScreen = () => {
 
             <View className='px-10 mt-5'>
 
-                <Link href='/products' asChild className='bg-blue-500 p-2 rounded-md mt-4 mb-8'>
-                    <CustomButton color='primary'>
+                <CustomButton
+                    className='mb-6'
+                    color='primary'
+                    onPress={() => router.push('/products')}>
+                    Productos
+                </CustomButton>
+
+                <CustomButton
+                    className='mb-6'
+                    color='secondary'
+                    onPress={() => router.push('/profile')}>
+                    Profile
+                </CustomButton>
+
+                <CustomButton
+                    className='mb-6'
+                    color='tertiary'
+                    onPress={() => router.push('/settings')}>
+                    Settings
+                </CustomButton>
+
+                <Link href='/products' asChild>
+                    <CustomButton variant='text-only'>
                         Productos
                     </CustomButton>
                 </Link>
-
-                <CustomButton
-                    className='mb-6'
-                    color='primary'
-                    onPress={() => router.push('/products')}>
-                    Productos
-                </CustomButton>
-
-                <CustomButton
-                    className='mb-6'
-                    color='primary'
-                    variant='text-only'
-                    onPress={() => router.push('/products')}>
-                    Productos
-                </CustomButton>
             </View>
 
             {/*<View>

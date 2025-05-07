@@ -26,7 +26,7 @@ const App = () => {
         </SafeAreaView>
     )*/
 
-    return <Redirect href='/home' />
+    return <Redirect href='/(stack)/home' />
 
 }
 
