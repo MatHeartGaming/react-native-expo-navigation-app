@@ -17,27 +17,27 @@ const StackLayout = () => {
                 options={{
                     title: 'Home Screen',
                 }}
-             />
-             <Stack.Screen
+            />
+            <Stack.Screen
                 name="products/index"
                 options={{
                     title: 'Products Screen',
                     //animation: 'fade_from_bottom'
                 }}
-             />
-             <Stack.Screen
+            />
+            <Stack.Screen
                 name="profile/index"
                 options={{
                     title: 'Profile Screen',
                 }}
-             />
-             <Stack.Screen
+            />
+            <Stack.Screen
                 name="settings/index"
                 options={{
                     title: 'Settings Screen',
                 }}
-             />
-        </Stack>   
+            />
+        </Stack>
     )
 };
 
