@@ -1,8 +1,8 @@
+import { Redirect } from 'expo-router'
 import React from 'react'
-import { SafeAreaView, Text, View } from 'react-native'
 
 const App = () => {
-    return (
+    /*return (
         <SafeAreaView>
             <View className='mt-6 mx-2.5'>
                 <Text className='text-5xl font-bold text-blue-500 text-center'>Hola Mundo</Text>
@@ -18,9 +18,16 @@ const App = () => {
                 <Text className='text-1xl text-tertiary font-work-light'>
                     1XL Tertiary Color Work Light
                 </Text>
+
+                <Link href='/products' className='bg-blue-500 p-2 rounded-md mt-4'>
+                    Productos
+                </Link>
             </View>
         </SafeAreaView>
-    )
+    )*/
+
+    return <Redirect href='/home' />
+
 }
 
 export default App
