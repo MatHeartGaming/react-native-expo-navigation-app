@@ -16,7 +16,16 @@ const HomeScreen = () => {
                 </Link>
 
                 <CustomButton
+                    className='mb-6'
                     color='primary'
+                    onPress={() => router.push('/products')}>
+                    Productos
+                </CustomButton>
+
+                <CustomButton
+                    className='mb-6'
+                    color='primary'
+                    variant='text-only'
                     onPress={() => router.push('/products')}>
                     Productos
                 </CustomButton>
