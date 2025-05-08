@@ -26,7 +26,7 @@ const App = () => {
         </SafeAreaView>
     )*/
 
-    return <Redirect href='/tabs' />
+    return <Redirect href='/tabs/home' />
 
 }
 
